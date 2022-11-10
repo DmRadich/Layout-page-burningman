@@ -1,0 +1,128 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: 000;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 58px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 19px;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../img/header-bg.jpg') no-repeat center top / cover;
+    padding-top: 57px;
+    padding-bottom: 322px;
+}
+
+header a{
+    color: #FFF;
+}
+
+section {
+    padding-top: 113px;
+}
+
+.menu { 
+    display: flex;
+}
+
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 40px;
+    letter-spacing: 0.1em;
+}
+
+.tel {
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.offer {
+    margin-top: 216px;
+    color: #FFF;
+}
+
+.offer p{
+    font-size: 30px;
+    letter-spacing: 0.01em;
+}
+
+.offer h1 {
+    font-size: 100px;
+    margin-bottom: 19px;
+    line-height: 120px;
+    letter-spacing: 0.02em;
+}
+
+.btn {
+    display: block;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 17px 47px;
+    border: 1px solid #FFF;
+    width: 238px;
+}
+
+.main_about_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.main_about_content p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 26px;
+}
+
+.main_about_gallery-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    margin: 114px 0;
+}
